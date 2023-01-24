@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpingIronGyms.Web", "PumpingIronGyms\PumpingIronGyms.Web.csproj", "{9217535C-CA61-468B-879F-F0A6A3725F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpingIronGyms.Core", "Booking.Core\PumpingIronGyms.Core.csproj", "{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9217535C-CA61-468B-879F-F0A6A3725F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9217535C-CA61-468B-879F-F0A6A3725F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9217535C-CA61-468B-879F-F0A6A3725F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9217535C-CA61-468B-879F-F0A6A3725F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E66DB6A8-E102-490A-B68F-6D8443382751}
+	EndGlobalSection
+EndGlobal
