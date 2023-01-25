@@ -1,6 +1,7 @@
 ﻿
 namespace PumpingIronGyms.Core.Entities
 {
+#nullable disable
     public class ApplicationUserGymClass
     {
         public string ApplicationUserId { get; set; }

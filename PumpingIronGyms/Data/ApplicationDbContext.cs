@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using PumpingIronGyms.Core.Entities;
 using PumpingIronGyms.Models;
+
 
 namespace PumpingIronGyms.Data
 {
@@ -11,5 +13,13 @@ namespace PumpingIronGyms.Data
         {
         }
         public DbSet<GymClass> GymClasses { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<ApplicationUserGymClass>()
+            .HasKey(t => new { t.ApplicationUserId, t.GymClassId });
+        }
+
     }
 }
