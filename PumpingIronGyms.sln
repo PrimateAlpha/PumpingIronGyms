@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpingIronGyms.Web", "PumpingIronGyms\PumpingIronGyms.Web.csproj", "{9217535C-CA61-468B-879F-F0A6A3725F13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PumpingIronGyms.Web", "PumpingIronGyms\PumpingIronGyms.Web.csproj", "{9217535C-CA61-468B-879F-F0A6A3725F13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpingIronGyms.Core", "Booking.Core\PumpingIronGyms.Core.csproj", "{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PumpingIronGyms.Core", "Booking.Core\PumpingIronGyms.Core.csproj", "{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumpingIronGyms.Data", "PumpingIronGyms.Data\PumpingIronGyms.Data.csproj", "{F3E3642C-E5D8-4753-89FD-CAA58FF462DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72D56E9E-3245-4BDE-B48F-9F6D4E6D513E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E3642C-E5D8-4753-89FD-CAA58FF462DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E3642C-E5D8-4753-89FD-CAA58FF462DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E3642C-E5D8-4753-89FD-CAA58FF462DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E3642C-E5D8-4753-89FD-CAA58FF462DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

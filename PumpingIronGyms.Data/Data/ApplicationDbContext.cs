@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using PumpingIronGyms.Core.Entities;
-using PumpingIronGyms.Models;
 
 
 namespace PumpingIronGyms.Data
